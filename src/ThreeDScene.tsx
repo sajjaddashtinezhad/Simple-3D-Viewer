@@ -29,7 +29,7 @@ const ThreeDScene = ({ fileData, fileName }: ThreeDSceneProps) => {
     setScene(scene);
 
     // Create a camera
-    const camera = new THREE.PerspectiveCamera(75, mount.clientWidth / mount.clientHeight, 0.1, 1000);
+    const camera = new THREE.PerspectiveCamera(75, mount.clientWidth / mount.clientHeight, 0.005, 1000);
     camera.position.z = 5;
     setCamera(camera);
 
