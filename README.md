@@ -30,7 +30,7 @@ Welcome to the Simple 3D Viewer plugin! This open-source Figma plugin allows you
 ## Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request.
-For further information, you can contact me at hi@sajjaddashti.ir.
+For further information, you can contact me at hi@sajjaddashti.ir. (Please be aware that I'm not really a developer, I'm a designer who does code. Don't be horrified by the code. Please help make it better.)
 
 ## License
 
