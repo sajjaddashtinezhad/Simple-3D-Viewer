@@ -1,50 +1,37 @@
-# React + TypeScript + Vite
+# Simple 3D Viewer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the Simple 3D Viewer plugin! This open-source Figma plugin allows you to view and interact with 3D designs directly within Figma and export them.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **3D Viewing**: Seamlessly view 3D models within your Figma projects.
+- **Interactive Controls**: Rotate, zoom, and pan 3D models with intuitive controls.
+- **High Performance**: Built with Vite for fast development and optimized performance.
+- **Modern UI**: Styled with Tailwind CSS for a clean and responsive interface.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Vite**: A fast build tool for modern web projects.
+- **React**: A JavaScript library for building user interfaces.
+- **Three.js**: A powerful 3D library for rendering 3D graphics.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
 
-- Configure the top-level `parserOptions` property like this:
+## Usage
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+1. Open Figma and go to the Plugins section.
+2. Search for "Simple 3D Viewer" and install the plugin.
+3. Open the plugin and load your 3D model to start viewing and interacting with it. (Currently, only .fbx and .obj files are supported. Other formats will be supported in the future.)
+4. Export the scene into your Figma design.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Credits
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+- 3D design created by [Nashekrashe Studio](https://nashekrashe.com).
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request.
+For further information, you can contact me at hi@sajjaddashti.ir.
+
+## License
+
+This project is licensed under the MIT License, except for the 3D design used on the first page, which is owned by [Nashekrashe Studio](https://nashekrashe.com)
